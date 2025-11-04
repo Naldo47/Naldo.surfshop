@@ -1,275 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore luxury snorkeling tours in Puerto Rico with La Lanza. Discover Culebra, Vieques, and more.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Birthstone&family=Lavishly+Yours&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="style.css">
-     <!-- Font Awesome CDN -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-    <title>La lanza</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Naldo Surfboard Shop</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    
-    <nav class="menu">
-        <section class="menu_container">
-          <img src="assets/logo2.webp" alt="Snorkelingpuertorico Logo" class="footer-logo">
-        
-            <!-- Menú principal -->
-            <ul class="menu_links">
-                <li class="menu_item">
-                    <a href="index.html" class="menu_link">Home</a>
-                </li>
 
-                <!-- Submenú About -->
-                <li class="menu_item menu_item--show">
-                    <a href="#" class="menu_link">Destinations<img src="assets/arrow.svg" alt="Abrir submenú" class="menu_arrow"></a>
-                    <ul class="menu_nesting">
-                        <li>
-                            <a href="https://snorkelingpuertorico.com/" class="menu_link menu_link--inside">Culebra</a>
-                        </li> 
-                        <li>
-                            <a href="https://snorkelingpuertorico.com/" class="menu_link menu_link--inside">Vieques</a>
-                        </li> 
-                        <li>
-                            <a href="https://snorkelingpuertorico.com/" class="menu_link menu_link--inside">Pineiro</a>
-                        </li> 
-                    </ul>
-                </li>
-
-                <!-- Submenú Projects -->
-                <li class="menu_item menu_item--show">
-                    <a href="#" class="menu_link">About<img src="assets/arrow.svg" alt="Abrir submenú" class="menu_arrow"></a>
-                    <ul class="menu_nesting">
-                        <li>
-                            <a href="https://snorkelingpuertorico.com/about/" class="menu_link menu_link--inside">About us</a>
-                        </li> 
-                        
-                    </ul>
-                </li>
-
-                <li class="menu_item">
-                    <a href="https://snorkelingpuertorico.com/contact/" class="menu_link">Contact</a>
-                </li>
-            </ul>
-
-            <!-- Menú hamburguesa -->
-            <button class="menu_hamburger" aria-label="Abrir menú">
-                <img src="assets/menu.svg" alt="Menú">
-            </button>
-        </section>
+  <!-- 🔹 NAVBAR -->
+  <header class="navbar">
+    <div class="logo">Naldo Surfboard <span>Shop</span></div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Productos</a></li>
+        <li><a href="#">Ofertas</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
     </nav>
+  </header>
 
+  <!-- 🔹 HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1 class="fade-in">Discover the New</h1>
+      <p class="fade-in delay">Custom made Surfboard</p>
+      <button class="btn fade-in delay2">Order Now</button>
+    </div>
+  </section>
 
-     <!-- Main Video -->
-      <section class="slideshow">
-        <div class="slideshow-container">
-          <video autoplay muted loop playsinline class="video-background">
-            <source src="assets/Lanza 1.MP4" type="video/mp4">
-            Tu navegador no soporta la etiqueta de video.
-          </video>
-      
-          <!-- Contenedor de texto y botón separados -->
-          <div class="slide-content">
-            <div class="slide-text">Naldo.Shaper Surfboards</div>
-            <a href="#booking" class="video-btn">Boards Style</a>
-          </div>
-        </div>
-      </section>
-
-
-       <!-- Linea de Division con bote -->
-       <div class="fancy-divider">
-        <span class="divider-line"></span>
-        <img src="assets/boat.png" alt="Divider Icon" class="divider-icon">
-        <span class="divider-line"></span>
+  <!-- 🔹 PRODUCTOS -->
+  <section class="products">
+    <h2>Nuestros Productos</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="img/Naldo.tshirt.jpg" alt="Producto 1">
+        <h3> Surf Clothing</h3>
+        <p>$25.00</p>
+        <button>Añadir al carrito</button>
       </div>
-
-      
-      <section class="about-video">
-        <div class="text-content">
-          <h2>WHAT WE DO<br>AND WHY WE DO IT</h2>
-          <p>
-            Since our founding in 2005, Black Tomato has always been about creating remarkable, tailor-made trips for travelers around the world. Tom and James – our co-founders – know this better than anyone. You can meet them in our new video.
-          </p>
-          <a href="https://snorkelingpuertorico.com/" class="btn-watch">DESTINATIONS</a>
-        </div>
-        <div class="image-content">
-          <img src="assets/la lanza.pic3.jpg" alt="Founders" />
-        </div>
-      </section>
-      
-      <section class="about-video reverse">
-        <div class="text-content">
-          <h2>HOW WE WORK<br>AND WHAT DRIVES US</h2>
-          <p>
-            From the beginning, our mission has been to craft extraordinary travel experiences tailored to each traveler. Our founders believe that curiosity and creativity are at the heart of every great journey.
-          </p>
-          <a href="https://snorkelingpuertorico.com/" class="btn-watch">DISCOVER MORE</a>
-        </div>
-        <div class="image-content">
-          <img src="assets/la lanza.pic.4.jpg" alt="Founders" />
-        </div>
-      </section>
-      
-      
-
-
-       <!-- Linea de Division con bote -->
-      <div class="fancy-divider">
-        <span class="divider-line"></span>
-        <img src="assets/steering.png" alt="Divider Icon" class="divider-icon">
-        <span class="divider-line"></span>
+      <div class="product-card">
+        <img src="img/Naldo.Hats.jpg" alt="Producto 2">
+        <h3> Naldo Hat</h3>
+        <p>$18.00</p>
+        <button>Añadir al carrito</button>
       </div>
-      
-      
-      
-              <!-- Seccion de gallery card -->
-      <section class="trips-section background-image">
-        <div class="trips-info">
-          <h2>Explore Our Trips</h2>
-          <p>Remarkable experiences to inspire the mind</p>
-        </div>
-        <div class="trip-cards">
-          <div class="trip-card" style="background-image: url('assets/la\ lanza.pic1.jpg')">
-            <!-- <span class="nights">8 NIGHTS</span> -->
-            <div class="trip-content">
-              <h3>Escape the crowds in the Selous and Zanzibar</h3>
-              <button>Explore Trip</button>
-            </div>
-          </div>
-          <div class="trip-card" style="background-image: url('assets/Inno-3.jpg')">
-            <!-- <span class="nights">10 NIGHTS</span> -->
-            <div class="trip-content">
-              <h3>Highlights of France: Classic Charm & Gourmet Indulgence</h3>
-              <button>Explore Trip</button>
-            </div>
-          </div>
-          <div class="trip-card" style="background-image: url('assets/medusa.webp')">
-            <!-- <span class="nights">9 NIGHTS</span> -->
-            <div class="trip-content">
-              <small>Italy</small>
-              <h3>Highlights of Italy: A Luxury Holiday in Rome</h3>
-              <button>Explore Trip</button>
-            </div>
-          </div>
-          <div class="trip-card" style="background-image: url('assets/culebra.jpg')">
-            <!-- <span class="nights">11 NIGHTS</span> -->
-            <div class="trip-content">
-              <small>Greece</small>
-              <h3>Athens, Mykonos and Crete: A Luxury Family Discovery</h3>
-              <button>Explore Trip</button>
-            </div>
-          </div>
-        </div>
-      </section>
-      
-      
-
-<!-- seccion con la firma y redes sociales -->
-      <section class="signature-section">
-        <img src="assets/anchor.png" alt="Signature" class="signature-img">
-        <p class="signature-phrase">Unleash Your Spirit<br>of Adventure!</p>
-      
-        <div class="social-share">
-          <p>Share with friends</p>
-          <div class="icons">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-x-twitter"></i></a>
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-            <a href="#"><i class="fab fa-whatsapp"></i></a>
-          </div>
-        </div>
-      </section>
-      
-
-      <!-- Awards Slider Modern -->
-<section class="award-slider background-image">
-  <div class="award-slider-overlay"></div>
-  <div class="container">
-    <h2>Our Awards & Recognitions</h2>
-    <div class="award-carousel">
-      <div class="award-card">
-        <img src="assets/tripadvisor.png" alt="TripAdvisor Award">
-        <h3>TripAdvisor Travelers’ Choice</h3>
-        <div class="stars">★★★★★</div>
-        <p>Recognized for consistent 5-star experiences and top customer service in 2024.</p>
-      </div>
-      <div class="award-card">
-        <img src="assets/google.png" alt="Google Award">
-        <h3>Best Catamaran Charter</h3>
-        <div class="stars">★★★★★</div>
-        <p>Rated #1 in Puerto Rico by Island Adventures Magazine.</p>
-      </div>
-      <div class="award-card">
-        <img src="assets/google.png" alt="Excellence Award">
-        <h3>Excellence in Service</h3>
-        <div class="stars">★★★★★</div>
-        <p>Honored for exceptional hospitality and guest satisfaction.</p>
+      <div class="product-card">
+        <img src="img/swim-trunks.jpg" alt="Producto 3">
+        <h3>Boardshort</h3>
+        <p>$35.00</p>
+        <button>Añadir al carrito</button>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-    
-
-        <script src="js/app.js"></script>
-
-
-           <!-- footer con estilo mejorado -->
-
-           <footer class="footer">
-            <div class="footer-container">
-              <div class="footer-about">
-                <img src="assets/Snorkeling-Puerto-Rico-Purple-Logo.webp" alt="Snorkelingpuertorico Logo" class="footer-logo">
-                <p>We offer exclusive tours in Puerto Rico, including Tours to Icaco's Island and Bioluminescent Bay. Experience the best of nature with top-rated service.</p>
-              </div>
-              <div class="footer-links">
-                <h4>Navigation</h4>
-                <ul>
-                  <li><a href="#">Home</a></li>
-                  <li><a href="https://snorkelingpuertorico.com/">Tours</a></li>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">FAQ</a></li>
-                  <li><a href="#">Contact</a></li>
-                </ul>
-              </div>
-              <div class="footer-tours">
-                <h4>Tours</h4>
-                <ul>
-                  <li><a href="#">Pineiro Adventure</a></li>
-                  <li><a href="#">Bio Bay Kayak</a></li>
-                  <li><a href="#">Culebra Charter</a></li>
-                  <li><a href="#">Vieques Escape</a></li>
-                </ul>
-              </div>
-              <div class="footer-contact">
-                <h4>Find Us</h4>
-                <p><i class="fas fa-calendar-alt"></i> Mon – Sun: 8am – 5pm AST</p>
-                <p><i class="fas fa-phone"></i> 787-978-8080</p>
-                <p><i class="fas fa-envelope"></i> <a href="mailto:info@snorkelingpuertorico.com">info@snorkelingpuertorico.com</a></p>
-                <!-- <p><i class="fas fa-envelope"></i> snorkelingpuertorico.com</p> -->
-                <div class="footer-socials">
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
-                  <a href="#"><i class="fab fa-instagram"></i></a>
-                  <a href="#"><i class="fab fa-youtube"></i></a>
-                  <a href="#"><i class="fab fa-tripadvisor"></i></a>
-                </div>
-              </div>
-            </div>
-            <div class="footer-bottom">
-              &copy; 2025 snorkelingpuertorico. Developed by Reinaldo Santana.
-            </div>
-          </footer>
-        
-      
-
+  <!-- 🔹 FOOTER -->
+  <footer>
+    <p>© 2025 Naldo Surfboard Shop | Todos los derechos reservados</p>
+  </footer>
 
 </body>
-</html
+</html>
